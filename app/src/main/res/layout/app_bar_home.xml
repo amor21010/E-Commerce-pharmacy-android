@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activates.HomeActivity">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+
+            <!--     <androidx.cardview.widget.CardView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+
+
+                     android:layout_marginStart="10dp"
+                     android:layout_marginTop="10dp"
+                     android:layout_marginEnd="10dp"
+                     android:layout_marginBottom="10dp"
+
+
+                     app:cardCornerRadius="15dp"
+                     app:cardElevation="10dp">
+
+
+                     <EditText
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:layout_marginStart="10dp"
+                         android:layout_marginTop="7dp"
+                         android:layout_marginEnd="10dp"
+                         android:layout_marginBottom="7dp"
+                         android:background="@null"
+
+
+                         android:drawableStart="@drawable/ic_search_black_24dp"
+
+                         android:hint="@string/search"
+                         android:inputType="text"
+                         android:textColor="@android:color/black"
+                         android:textColorHint="@color/colorAccent" />
+
+
+                 </androidx.cardview.widget.CardView>
+     -->
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <include layout="@layout/content_home" />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/ic_chat" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_deals"
+            android:icon="@drawable/ic_monetization_on_black_24dp"
+            android:title="@string/deals" />
+        <item
+            android:id="@+id/nav_Chekout"
+            android:icon="@drawable/ic_add_shopping_cart_black_24dp"
+            android:title="@string/menu_checkout" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/ic_history_black_24dp"
+            android:title="@string/history" />
+
+        <item
+            android:id="@+id/nav_rochet"
+            android:icon="@drawable/ic_medical_file"
+            android:title="@string/history" />
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_account_box_black_24dp"
+            android:title="@string/menu_profile" />
+
+    </group>
+
+    <group android:id="@+id/mange_menu">
+        <item android:id="@+id/contact_us"
+            android:icon="@drawable/ic_contact_mail_black_24dp"
+            android:title="@string/contact_us" />
+        <item android:id="@+id/Logout"
+            android:title="@string/logout"
+            android:icon="@drawable/ic_out"/>
+
+
+    </group>
+
+    <group android:id="@+id/report_menu">
+        <item android:id="@+id/report"
+            android:title="@string/report_bug"
+            android:icon="@drawable/ic_bug_report_black_24dp"/>
+
+    </group>
+
+
+
+</menu>

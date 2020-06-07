@@ -1,0 +1,49 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="RippleStyleAccent">
+        <item name="mrl_rippleOverlay">true</item>
+        <item name="mrl_rippleColor">@color/colorAccent</item>
+        <item name="mrl_rippleAlpha">0.2</item>
+
+    </style>
+
+    <style name="RippleStylePrimary">
+        <item name="mrl_rippleOverlay">true</item>
+        <item name="mrl_rippleColor">@color/colorPrimary</item>
+        <item name="mrl_rippleAlpha">0.2</item>
+    </style>
+
+    <style name="RippleStyleGray">
+        <item name="mrl_rippleOverlay">true</item>
+        <item name="mrl_rippleColor">#7C7B7B</item>
+        <item name="mrl_rippleAlpha">0.2</item>
+
+
+    </style>
+
+    <style name="RippleStylewhight">
+        <item name="mrl_rippleOverlay">true</item>
+        <item name="mrl_rippleColor">#fff</item>
+        <item name="mrl_rippleAlpha">0.2</item>
+
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>
